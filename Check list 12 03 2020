@@ -1,0 +1,47 @@
+1º passo: Abrir o packet tracer
+a)Colocar os componentes necessário s para a atividade
+b)Utilizar os cabos adequados para cada equipamento
+2º passo: Configurar os PC's (IP, MASK, GATE)
+PC-01
+IP: 192.168.0.10 /24
+Mask: 255.255.255.0
+Gateway: 192.168.0.1
+Mudar o nome do PC
+PC-02
+IP: 172.16.0.10
+Mask: 255.255.0.0
+Gateway: 172.16.0.1
+mudar o nome do PC
+3º passo: Fazer os Scripts necessários
+4º passo: Configurar os SW's
+Switch
+a)Hostname [SW-01]
+b)banner
+c)Criar usuário local
+d)Privilege 15
+e)Senha da enable
+f)Senha da console
+g)Domínio:  1rede.local
+h)Chave ssh 1024
+i)Senha da VTY
+j)Ativar o login local na CONSOLE e nas linhas VTY
+k)IP na Vlan 1
+l)NÃO ESQUECER DE ENCRIPTAR TODAS AS SENHAS!!!
+Switch -2 
+a)Hostname [SW02]
+b)banner
+c)Criar usuário local
+d)Privilege 15
+e)Senha da enable
+f)Senha da console
+g)Domínio:  1rede.local
+h)Chave ssh 1024
+i)Senha da VTY
+j)Ativar o login local na CONSOLE e nas linhas VTY
+k)IP na VLAN 1
+l)NÃO ESQUECER DE ENCRIPTAR TODAS AS SENHAS!!!
+Configurar o Router:
+a)Hostname
+b)banner
+c)Senha da console
+d)Senha da VTY
