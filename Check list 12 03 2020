@@ -40,8 +40,16 @@ i)Senha da VTY
 j)Ativar o login local na CONSOLE e nas linhas VTY
 k)IP na VLAN 1
 l)NÃO ESQUECER DE ENCRIPTAR TODAS AS SENHAS!!!
+
 Configurar o Router:
-a)Hostname
-b)banner
-c)Senha da console
-d)Senha da VTY
+Hostname
+banner
+Senha da enable
+Senha da console
+Ativar o login da console
+Ativar interfaces e colocar os IP em cada porta: g0/0 e g0/1
+Domínio: 1rede.local
+Chave ssh 1024
+Encriptar todas as senhas
+Colocar senha e ativar login local na: console e VTY
+Criar usuário com Privilege 15
